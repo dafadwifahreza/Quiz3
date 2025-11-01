@@ -50,7 +50,7 @@ describe('Scenario Verifikasi Fungsi Login',()=>{
     })
 
      //Pengguna akses halaman reset password
-    it('TC07-Pengguna akses halaman reset password',()=>{ 
+    it('TC07-Pengguna akses halaman reset password',()=>{
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         cy.contains('Forgot your password?').click();
         cy.url().should('include','requestPasswordReset');
