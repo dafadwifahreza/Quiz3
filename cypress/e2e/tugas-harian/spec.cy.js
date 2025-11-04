@@ -1,5 +1,5 @@
-import loginPage from "../support/pageObjects/loginPage"
-import loginData from "../fixtures/loginData.json"
+import loginPage from "../../support/pageObjects/loginPage"
+import loginData from "../../fixtures/loginData.json"
 
 describe('Scenario Login',  ()=>{
   it('TC01-Login dengan Username dan Password benar',()=>{ 
