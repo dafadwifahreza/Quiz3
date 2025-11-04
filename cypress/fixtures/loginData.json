@@ -1,7 +1,9 @@
 {
-    "valid_username":"standard_user",
-    "valid_password":"secret_sauce",
+    "valid_username":"Admin",
+    "valid_password":"admin123",
     "invalid_username":"123",
-    "invalid_password":"194"
+    "invalid_password":"194",
+    "empty_username":" ",
+    "empty_password":" "
 }
 
