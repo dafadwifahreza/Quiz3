@@ -63,9 +63,5 @@ describe('Scenario Login',  ()=>{
         loginPage.visitresetpass()
         loginPage.inputUsername(loginData.valid_username)
         loginPage.clickLoginBtn()
-    })
-
-
-    
-
+    })    
 }) 

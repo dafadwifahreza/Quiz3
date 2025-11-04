@@ -54,5 +54,4 @@ describe ('Scenario Verifikasi Fungsi Login', () => {
         cy.get('button[type="submit"]').click().should('be.visible')
         cy.wait('@resetPass').its('response.statusCode').should('eq', 200)
     })
-
-});
+})
